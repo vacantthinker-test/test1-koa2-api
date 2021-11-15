@@ -2,6 +2,7 @@ node_modules
 dist
 build
 .DS_Store
+/dist
 
 # local env files
 .env.local
@@ -26,13 +27,6 @@ pnpm-debug.log*
 
 git-init.js
 git-add.js
-git-pushsync.js
 
-
-
-
-
-
-
-
-
+git-init-pushsync.js
+git-push.js
