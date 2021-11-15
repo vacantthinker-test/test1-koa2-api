@@ -1,0 +1,18 @@
+{
+  "version": "0.0.1",
+  "description": "",
+  "name": "test1-koa2-api",
+  "scripts": {
+    "watch": "nodemon app.js",
+    "yif": "yarn install --offline"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@koa/router": "^10.1.1",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7"
+  }
+}
