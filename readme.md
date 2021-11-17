@@ -38,9 +38,12 @@ yarn add @koa/router --cached
  - 一个path匹配一个处理行为的活动. 一一对应关系
 
 URL 浏览器访问地址
-/about 返回' Welcome to about us page'
-/contact 返回' Welcome to contact us page'
-其他path路径 返回'Hello World!'
+
+ - /about 返回' Welcome to about us page'
+
+ - /contact 返回' Welcome to contact us page'
+
+ - 其他path路径 返回'Hello World!'
 
 即不同的path(path指路径) 返回不同的结果
 ```javascript
