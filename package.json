@@ -4,6 +4,7 @@
   "name": "test1-koa2-api",
   "scripts": {
     "watch": "nodemon app.js",
+    "yi": "yarn install",
     "yif": "yarn install --offline"
   },
   "dependencies": {
@@ -13,6 +14,7 @@
     "koa-bodyparser": "^4.3.0"
   },
   "devDependencies": {
-    "@types/node": "^16.11.7"
+    "@types/node": "^16.11.7",
+    "nodemon": "latest"
   }
 }
